@@ -1,0 +1,22 @@
+#!/bin/bash
+
+link_opengl() {
+  [ $(uname) = Darwin ] && echo "-framework OpenGL"
+  [ $(uname) = Linux ] && pkg-config --libs --cflags gl
+}
+
+link_glew() {
+  pkg-config --libs --cflags glew
+}
+
+link_glfw3() {
+  pkg-config --libs --cflags glfw3
+}
+
+link_graphics() {
+  link_glew
+  link_opengl
+  link_glfw3
+}
+
+link_graphics | tr '\n' ' '
