@@ -33,8 +33,6 @@ Created in autumn 2017 by Kirill Rodriguez.
 
 Make sure you have everything installed.
 
-Then download [nuklear](https://github.com/vurtun/nuklear) into **correction/** folder.
-
 ### Compiling
 
 	make
@@ -42,9 +40,9 @@ Then download [nuklear](https://github.com/vurtun/nuklear) into **correction/** 
 ### Testing
 
 	make test
-	
+
 ### Cleaning
-		
+
 	make clean
 
 ## Notes
