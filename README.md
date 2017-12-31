@@ -10,7 +10,7 @@ Created in autumn 2017 by Kirill Rodriguez.
 
 ![compression](./scsht/compression.png)
 
-* Data error correction algorithms with GUI.
+* Error correction algorithms with GUI.
 
 ![correction](./scsht/correction-1bil.png)
 
