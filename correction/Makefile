@@ -9,11 +9,14 @@ LDFLAGS = $(shell ./link_graphics) -lgmp -lgmpxx
 all:; $(MAKE) -j$(shell getconf _NPROCESSORS_ONLN) _all
 _all: correction
 
-correction: main.cpp $(GUIHEADERS) $(CODINGHEADERS)
+correction: main.cpp $(GUIHEADERS) $(CODINGHEADERS) nuklear
 		$(CXX) $(LDFLAGS) $(CFLAGS) main.cpp -o correction
 
 test_codings: test_codings.cpp $(CODINGHEADERS)
 		$(CXX) $(CFLAGS) test_codings.cpp -o test_codings
+
+nuklear:
+		./download
 
 test: test_codings
 		./test_codings
