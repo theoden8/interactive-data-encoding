@@ -19,7 +19,7 @@ Created in autumn 2017 by Kirill Rodriguez.
 ### Compression
 
 * C++14
-* Qt
+* Qt 4.8+
 
 ### Error correction
 
