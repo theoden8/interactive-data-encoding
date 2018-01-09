@@ -14,7 +14,7 @@ Created in autumn 2017 by Kirill Rodriguez.
 
 ![correction](./scsht/correction-1bil.png)
 
-## Tools
+## Requirements
 
 ### Compression
 
