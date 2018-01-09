@@ -6,7 +6,7 @@
 #include <string>
 #include <vector>
 
-#include <coding/DynamicBitset.hpp>
+#include <DynamicBitset.hpp>
 
 namespace coding {
 

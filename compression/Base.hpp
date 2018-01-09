@@ -3,8 +3,8 @@
 
 #include <climits>
 
-#include <coding/DynamicBitset.hpp>
-#include <coding/CodingMeta.hpp>
+#include <DynamicBitset.hpp>
+#include <CodingMeta.hpp>
 
 namespace coding {
 

@@ -8,6 +8,10 @@
 
 #include <GLUtil.hpp>
 
+// some of the code was borrowed from nuklear examples:
+// https://github.com/vurtun/nuklear/blob/master/demo/glfw_opengl3/main.c
+// https://github.com/vurtun/nuklear/wiki
+
 #define NK_INCLUDE_FIXED_TYPES
 #define NK_INCLUDE_STANDARD_IO
 #define NK_INCLUDE_STANDARD_VARARGS

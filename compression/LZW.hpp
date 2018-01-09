@@ -1,7 +1,7 @@
 #ifndef CODINGLZW_HPP
 #define CODINGLZW_HPP
 
-#include <coding/Base.hpp>
+#include <Base.hpp>
 
 #include <unordered_map>
 #include <array>

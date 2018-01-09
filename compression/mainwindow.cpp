@@ -3,9 +3,9 @@
 
 #include <cmath>
 
-#include <coding/Coding.hpp>
+#include <Coding.hpp>
 
-MainWindow::MainWindow(QWidget *parent) :
+MainWindow::MainWindow(QWidget *parent):
     QMainWindow(parent),
     ui(new Ui::MainWindow)
 {

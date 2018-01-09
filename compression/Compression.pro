@@ -33,16 +33,16 @@ SOURCES += \
 
 HEADERS += \
         mainwindow.h \
-        coding/Coding.hpp \
-        coding/CodingMeta.hpp \
-        coding/DynamicBitset.hpp \
-        coding/Base.hpp \
-        coding/Block.hpp \
-        coding/Huffman.hpp \
-        coding/Arithmetic.hpp \
-        coding/Shannon.hpp \
-        coding/LZ77.hpp \
-        coding/LZW.hpp
+        Coding.hpp \
+        CodingMeta.hpp \
+        DynamicBitset.hpp \
+        Base.hpp \
+        Block.hpp \
+        Huffman.hpp \
+        Arithmetic.hpp \
+        Shannon.hpp \
+        LZ77.hpp \
+        LZW.hpp
 
 FORMS += \
         mainwindow.ui

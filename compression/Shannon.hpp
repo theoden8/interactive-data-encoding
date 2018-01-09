@@ -1,7 +1,7 @@
  #ifndef CODINGSHANNON_HPP
  #define CODINGSHANNON_HPP
 
-#include <coding/Base.hpp>
+#include <Base.hpp>
 
 namespace coding {
 
