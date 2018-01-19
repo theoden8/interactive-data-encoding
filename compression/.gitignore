@@ -3,3 +3,4 @@
 *.app
 moc_*
 Makefile
+.qmake.stash
