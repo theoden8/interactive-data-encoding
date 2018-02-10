@@ -17,7 +17,7 @@ namespace GLFW {
   void init_glfw3() {
     glfwSetErrorCallback(error_callback);
     if (!glfwInit()) {
-      throw std::runtime_error("glfw: unable to init");
+      throw std::runtime_error("failed to setup glfw");
     }
     glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3);
     glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3);
@@ -45,7 +45,7 @@ namespace GLEW {
   void init_glew() {
     glewExperimental = 1;
     if (glewInit() != GLEW_OK) {
-      throw std::runtime_error("unable to setup glfw");
+      throw std::runtime_error("failed to setup glew");
     }
   }
 } // namespace GLEW
